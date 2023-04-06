@@ -31,7 +31,7 @@ function myfunc(val) {
                 for (var b = 0; b < 3; b++) {
                     x[a[b] - 1].style.backgroundColor = "green";
                 }
-                alert(player2_name+"win");
+                alert(player2_name+" win");
                 flag = 2;
             }
             i++;
@@ -49,7 +49,7 @@ function myfunc(val) {
                 for (var b = 0; b < 3; b++) {
                     x[a[b] - 1].style.backgroundColor = "red";
                 }
-               alert(player1_name+"win");
+               alert(player1_name+" win");
                 flag = 1;
             }
         }
