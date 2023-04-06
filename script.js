@@ -8,7 +8,8 @@ var x = document.getElementsByTagName("button");
 console.log(x)
 var y = document.getElementsByClassName("demo");
 console.log(y);
-
+var player1_name=prompt("enter the player1 name:");
+var player2_name=prompt("enter the player2 name:");
 var i = 1;
 var flag = -1;
 function myfunc(val) {
@@ -30,7 +31,7 @@ function myfunc(val) {
                 for (var b = 0; b < 3; b++) {
                     x[a[b] - 1].style.backgroundColor = "green";
                 }
-                alert("player2 win");
+                alert(player2_name+"win");
                 flag = 2;
             }
             i++;
@@ -48,7 +49,7 @@ function myfunc(val) {
                 for (var b = 0; b < 3; b++) {
                     x[a[b] - 1].style.backgroundColor = "red";
                 }
-                alert("player1 win");
+               alert(player1_name+"win");
                 flag = 1;
             }
         }
