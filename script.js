@@ -15,6 +15,9 @@ function myfunc(val) {
     if (flag == 1 || flag == 2 && flag!=3) {
         alert("you cannot play further more because the game is end");
     }
+     else if (y[val - 1].innerHTML == "O" || y[val - 1].innerHTML == "X") {
+        alert("the value is already full");
+    }
     else{
         if (i % 2 == 0) {
             player2.push(val);
